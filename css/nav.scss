@@ -1,0 +1,43 @@
+.nav__list {
+    display: flex;
+
+}
+.nav__item  {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    
+    &::after{
+        content: "";
+        display: block;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: #fff;
+        margin-left: 10px; 
+}
+&:last-child {
+    margin-right: 0;
+
+    &:after {
+      display: none;
+    }
+  }
+   
+    
+}
+
+.nav__link {
+    color: #fff;
+    display: flex;
+   
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Ubuntu";
+    text-transform: uppercase;
+    
+
+    
+}
+
+
