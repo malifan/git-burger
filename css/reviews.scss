@@ -7,6 +7,21 @@
 .reviews__item {
     flex-basis: 25%;
     height: 50%;
+    position: relative;
+    filter: grayscale(100%);
+
+
+    &:hover {
+        .reviews__hover {
+            opacity: 1;
+        }
+    }
+}
+
+.reviews__name {
+    font-size: 16px;
+    font-family: "Gagalin";
+    padding: 50px 0 30px;
 }
 
 .reviews__photo {
@@ -15,6 +30,26 @@
     object-fit: cover;
 }
 
-.reviews__hover {
-    
+.reviews__text {
+    font-family: "Ubuntu";
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 300;
+    padding: 5px 0 15px;
 }
+
+.reviews__hover {
+    opacity: 0;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    padding: 50px 20px;
+   transition: opacity 0.8s;
+}
+
+
+  

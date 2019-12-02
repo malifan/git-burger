@@ -1,2 +1,31 @@
 .intro {
-  background: url(../img/texture.png); }
+  background: url(../img/texture.png) center center/cover no-repeat;
+  position: relative; }
+
+.container {
+  margin: 0 auto;
+  min-width: 650px;
+  max-width: 950px; }
+
+.intro__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  top: 30%; }
+
+.intro__content-text {
+  margin-left: 20px; }
+
+.intro__content-title {
+  font-size: 72px;
+  font-family: "Gagalin";
+  color: #f9b43b; }
+
+.intro__content-subtitle {
+  font-size: 65px;
+  font-family: "Lifehack";
+  color: #fff; }
