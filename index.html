@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <section class="section intro">
+    <section name="top" class="section intro">
         <div class="container intro__container">
             <header class="header">
                 <img src="./img/logo.png" alt="" class="logo">
@@ -26,9 +26,10 @@
                             <li class="nav__item"><a href="" class="nav__link">отзывы</a></li>
                             <li class="nav__item"><a href="" class="nav__link">как мы работаем</a></li>
                             <li class="nav__item"><a href="" class="nav__link">контакты</a></li>
+                            <li class="nav__button"><a href="#" class="btn">Заказать</a></li>
                         </ul>
                     </nav>
-                    <button type="button" class="btn">Заказать</button>
+                    
                 </div>
             </header>
             <div class="intro__content">
@@ -45,7 +46,7 @@
         </div>
         <button class="scrol-down-btn"></button>
     </section>
-    <section class="section best">
+    <section name="best"  class="section best">
         <div class="container best__container">
             <div class="title title-color-black">мы лучшие</div>
             <ul class="best__list">
@@ -92,9 +93,19 @@
         </div>
     </section>
 
-    <section class="section reviews">
+    <section name="reviews" class="section reviews">
         <ul class="reviews__list">
-            <li class="reviews__item"><img src="./img/krist.png" alt="" class="reviews__photo"></li>
+            <li class="reviews__item"><img src="./img/krist.png" alt="" class="reviews__photo">
+                <div class="reviews__hover">
+                    <div class="reviews__name">Константин спилберг</div>
+                    <div class="reviews__text">
+                        <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть...
+                            Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной,
+                            а сыр таким расплавленным.</p>
+                    </div>
+                    <button type="button" class="btn">Подробнее</button>
+                    </div>
+                </li>
             <li class="reviews__item"><img src="./img/mark.png" alt="" class="reviews__photo">
                 <div class="reviews__hover">
                 <div class="reviews__name">Константин спилберг</div>
@@ -171,8 +182,45 @@
     </section>
     <section class="section order">
         <h2 class="title order__title">Закажите доставку</h2>
-        <form action="" class="action" class="form"></form>
+        <form action="" class="action" class="form">
+            <div class="form__col">
+                <div class="form__row">
+                    <label class="form__label">
+                        
+                    </label>
+                </div>
+                <div class="form__row"></div>
+                <div class="form__row"></div>
+            </div>
+            <div class="form__col"></div>
+        </form>
     </section>
+    <ul class="fixed-menu">
+        <li class="fixed-menu__item">
+          <a class="fixed-menu__dot fixed-menu__dot--active" href="#top" aria-label="О нас"></a>
+        </li>
+        <li class="fixed-menu__item">
+          <a class="fixed-menu__dot" href="#best" aria-label="О нас"></a>
+        </li>
+        <li class="fixed-menu__item">
+          <a class="fixed-menu__dot" href="#reviews" aria-label="О нас"></a>
+        </li>
+        <li class="fixed-menu__item">
+          <a class="fixed-menu__dot" href="#" aria-label="О нас"></a>
+        </li>
+        <li class="fixed-menu__item">
+          <a class="fixed-menu__dot" href="#" aria-label="О нас"></a>
+        </li>
+        <li class="fixed-menu__item">
+          <a class="fixed-menu__dot" href="#" aria-label="О нас"></a>
+        </li>
+        <li class="fixed-menu__item">
+          <a class="fixed-menu__dot" href="#" aria-label="О нас"></a>
+        </li>
+        <li class="fixed-menu__item">
+          <a class="fixed-menu__dot" href="#" aria-label="О нас"></a>
+        </li>
+      </ul>
     <p>
 
 </body>

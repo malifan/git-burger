@@ -31,3 +31,21 @@
     font-family: "Lifehack";
     color: #fff;
 }
+
+@media (max-width: 768px)
+{
+    .intro__content {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 5%;
+}
+.intro__content-subtitle {
+    max-width: 400px;
+    display: flex;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+
+}
